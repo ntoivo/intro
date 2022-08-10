@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  h1 {
+    color: #146356;
+    font-family: 'Satisfy', cursive;
+    font-size: 5.5rem;
+  }
+  
+  h2 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+    color: #34BE82;
+    margin: 5%;
+  }
+  
+  h3 {
+    font-family: 'Arsenal', sans-serif;
+    color: #146356;
+  }
+  
+  p {
+    color: #212121;
+    line-height: 2;
+    margin: 3% 0 3%;
+  }
+  
+  .container-fluid {
+    padding: 3% 8%;
+  }
+  
+  .pink-section {
+    background-color: #FFE3E3;
+  }
+  
+  .color-grid-down {
+    background-image: linear-gradient(#ffffff, #FFE3E3);
+  }
+  .white-section {
+    background-color: #ffffff;
+  }
+  
+  /* Navigation bar */
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    color: #146356;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  .nav-link:hover {
+    color: #34BE82;
+  }
+  
+  /* Title Section */
+  .titleSection {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .pro {
+    text-decoration: underline;
+  }
+  
+  .hydrangea {
+    width: 30%;
+    position: absolute;
+    left: 0.5%;
+  }
+  
+  .yellow-rose {
+    position: absolute;
+    right: 0.5%;
+    width: 30%;
+  }
+  
+  
+  
+  /* Profile Section */
+  #profileSection {
+    margin: auto;
+    width: 35%;
+    padding-top: 3rem;
+  }
+  
+  .profilepicture {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 6% 0 5%;
+  }
+  
+  .hello {
+    padding-bottom: 6%;
+  }
+  
+  /* Skill Section */
+  #skillsSection {
+    text-align: center;
+    padding: 0 2% 6% 2%;
+  }
+  
+  .skills-col {
+    padding: 3%
+  }
+  
+  .skills-card {
+    margin: 5%;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-img {
+    width: 50%;
+    padding-bottom: 5%;
+  }
+  
+  /* Tech Section */
+  .pad-left {
+    padding-left: 13%;
+  }
+  
+  .pad-right {
+    padding-right: 13%;
+  }
+  
+  .html5-icon {
+    margin-top: 2%;
+    text-align: center;
+  }
+  
+  .nodejs-icon {
+    margin-top: 10%;
+  }
+  
+  
+  
+  /* Contact Section */
+  
+  #contactSection {
+    padding: 0 0 20px;
+  }
+  .reach-out {
+    margin: 50px auto;
+    width: 40%;
+  }
+  
+  .btn {
+    background: #FFE3E3;
+    background-image: -webkit-linear-gradient(top, #FFE3E3, #f5a9a9);
+    background-image: -moz-linear-gradient(top, #FFE3E3, #f5a9a9);
+    background-image: -ms-linear-gradient(top, #FFE3E3, #f5a9a9);
+    background-image: -o-linear-gradient(top, #FFE3E3, #f5a9a9);
+    background-image: linear-gradient(to bottom, #FFE3E3, #f5a9a9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Arsenal', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fac5c5;
+    background-image: -webkit-linear-gradient(top, #fac5c5, #f59d9d);
+    background-image: -moz-linear-gradient(top, #fac5c5, #f59d9d);
+    background-image: -ms-linear-gradient(top, #fac5c5, #f59d9d);
+    background-image: -o-linear-gradient(top, #fac5c5, #f59d9d);
+    background-image: linear-gradient(to bottom, #fac5c5, #f59d9d);
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  
+  
+  .linkedin-icon{
+    margin: 20px;
+    transition: opacity 0.5s ease-out 20ms;
+    width: 2rem;
+  
+  }
+  
+  a > img:hover {
+  opacity: 0.6;
+  }
+  
+  .copyright {
+    color: #34BE82;
+    font-size: 0.85rem;
+    padding-top: 10px;
+  }
+  
+  .credit {
+    color: #ffffff;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 0.7rem;
+  }
+  
+  /* Media Compatibility */
+  @media (max-width: 712px) {
+    .hydrangea {
+      width: 28%;
+    }
+  
+    .yellow-rose {
+      width: 28%;
+    }
+  
+  @media (max-width: 985px) {
+    .card-body {
+      padding: 3rem;
+    }
+  
+    .card-img {
+      width: 40%;
+      padding-bottom: 3%;
+    }
+  
+    .tech-icon {
+      width: 75%;
+    }
+  }
+  
+  @media (max-width: 1050px) {
+    #profileSection {
+      min-width: 200px;
+    }
+  
+    .heading-column {
+      max-width: 275px;
+    }
+  
+    .css-icon {
+      max-width: 70%;
+    }
+  }
+  
